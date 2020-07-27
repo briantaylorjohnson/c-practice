@@ -10,7 +10,7 @@ int main(int argc, char *argv[])
     // Creates an array of chars in condensed syntax
     char name[] = "Zed";
 
-    // Creates an array of chars by specifying each char (note the null pointer to end the array)
+    // Creates an array of chars by specifying each char (note the null terminator to end the array)
     char full_name[] = {
         'Z', 'e', 'd',
         ' ', 'A', '.',
